@@ -1,0 +1,31 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:product.product-production.bom,line:"
+msgid "Line"
+msgstr "Línia"
+
+msgctxt "field:production.lead_time,line:"
+msgid "Line"
+msgstr "Línia"
+
+msgctxt "field:production.work.center.category,is_line:"
+msgid "Is Line"
+msgstr "És línia"
+
+msgctxt "model:ir.action,name:act_product_bom_line_list"
+msgid "Product BOMs"
+msgstr "Línies de materials de producte"
+
+msgctxt "model:ir.action,name:act_production_lead_time_line_list"
+msgid "Production Lead Times"
+msgstr "Temps d'espera de producció"
+
+msgctxt "model:ir.ui.menu,name:menu_product_bom_line_list"
+msgid "Product BOMs"
+msgstr "Línies de materials de producte"
+
+msgctxt "model:ir.ui.menu,name:menu_production_lead_time_line_list"
+msgid "Production Lead Times"
+msgstr "Temps d'espera de producció"

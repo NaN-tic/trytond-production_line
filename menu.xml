@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <record model="ir.action.act_window" id="act_product_bom_line_list">
+            <field name="name">Product BOMs</field>
+            <field name="res_model">product.product-production.bom</field>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_product_bom_line_list_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="production.product-bom_view_list_sequence"/>
+            <field name="act_window" ref="act_product_bom_line_list"/>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_product_bom_line_list_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="production.product-bom_view_form"/>
+            <field name="act_window" ref="act_product_bom_line_list"/>
+        </record>
+        <menuitem
+            parent="production.menu_configuration"
+            action="act_product_bom_line_list"
+            sequence="21"
+            id="menu_product_bom_line_list"/>
+
+        <record model="ir.action.act_window" id="act_production_lead_time_line_list">
+            <field name="name">Production Lead Times</field>
+            <field name="res_model">production.lead_time</field>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_production_lead_time_line_list_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="production.production_lead_time_view_list_sequence"/>
+            <field name="act_window" ref="act_production_lead_time_line_list"/>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_production_lead_time_line_list_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="production.production_lead_time_view_form"/>
+            <field name="act_window" ref="act_production_lead_time_line_list"/>
+        </record>
+        <menuitem
+            parent="production.menu_configuration"
+            action="act_production_lead_time_line_list"
+            sequence="22"
+            id="menu_production_lead_time_line_list"/>
+    </data>
+</tryton>
