@@ -10,6 +10,10 @@ msgctxt "field:production.lead_time,line:"
 msgid "Line"
 msgstr "Línea"
 
+msgctxt "field:production,line:"
+msgid "Line"
+msgstr "Línea"
+
 msgctxt "field:production.work.center.category,is_line:"
 msgid "Is Line"
 msgstr "Es línea"
