@@ -9,6 +9,7 @@ from . import product, production
 def register():
     Pool.register(
         production.WorkCenterCategory,
+        production.Production,
         product.ProductBom,
         product.ProductionLeadTime,
         module='production_line', type_='model')
