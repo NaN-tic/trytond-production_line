@@ -12,5 +12,17 @@
             <field name="inherit" ref="production_work.work_center_category_view_list"/>
             <field name="name">work_center_category_list</field>
         </record>
+
+        <record model="ir.ui.view" id="production_view_form">
+            <field name="model">production</field>
+            <field name="inherit" ref="production_routing.production_view_form"/>
+            <field name="name">production_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="production_view_list">
+            <field name="model">production</field>
+            <field name="inherit" ref="production.production_view_list"/>
+            <field name="name">production_list</field>
+        </record>
     </data>
 </tryton>
