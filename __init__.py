@@ -8,6 +8,7 @@ from . import product, production
 
 def register():
     Pool.register(
+        production.WorkCenter,
         production.WorkCenterCategory,
         production.Production,
         product.ProductBom,
