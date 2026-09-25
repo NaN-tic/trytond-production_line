@@ -18,6 +18,14 @@ msgctxt "field:production.work.center.category,is_line:"
 msgid "Is Line"
 msgstr "Es línea"
 
+msgctxt "field:production.work.center,color:"
+msgid "Color"
+msgstr "Color"
+
+msgctxt "help:production.work.center,color:"
+msgid "HTML color (hexadecimal)"
+msgstr "Color HTML (hexadecimal)"
+
 msgctxt "model:ir.action,name:act_product_bom_line_list"
 msgid "Product BOMs"
 msgstr "Líneas de materiales de producto"

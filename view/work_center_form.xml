@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<data>
+    <xpath expr="/form/field[@name='category']" position="after">
+        <label name="color"/>
+        <field name="color" widget="color"/>
+    </xpath>
+</data>
