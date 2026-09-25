@@ -5,6 +5,12 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 
+class WorkCenter(metaclass=PoolMeta):
+    __name__ = 'production.work.center'
+
+    color = fields.Char('Color', help='HTML color (hexadecimal)')
+
+
 class WorkCenterCategory(metaclass=PoolMeta):
     __name__ = 'production.work.center.category'
 
